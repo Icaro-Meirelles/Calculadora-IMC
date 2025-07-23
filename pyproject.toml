@@ -1,0 +1,18 @@
+[project]
+name = "calculadora-imc"
+version = "0.1.0"
+description = "\"Calculadora de IMC, feita com propósito de relembras conceitos de Python como Função, Loop e Operadores.\""
+authors = [
+    {name = "IC4R0"}
+]
+license = {text = "\"MIT\""}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyfiglet (==1.0.3)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
