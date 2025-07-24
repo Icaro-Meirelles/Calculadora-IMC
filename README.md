@@ -1,3 +1,6 @@
+<p align="center">
+    <img src="banner.png" alt="Calculadora IMC" width="600">
+</p>
 # 👮 Calculadora de IMC em Python
 
 Projeto simples em Python com o objetivo de **relembrar conceitos fundamentais** da linguagem, como:

@@ -41,12 +41,15 @@ def calculadora(): # Função da Calculadora IMC
                 print("Normal")
 
             elif calc <= 29.9:
-                print("Sobrepeso 1")
+                print("Sobrepeso ")
+
+            elif calc <= 34.9:
+                print("Obesidade 1")
 
             elif calc <= 39.9:
                 print("Obesidade 2")
 
-            elif calc <= 40.0:
+            elif calc >= 40.0:
                 print("Obesidade Grave 3")
         
         except ValueError:
